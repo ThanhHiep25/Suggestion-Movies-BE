@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2018", // Hoặc "es2020", "es2021" tùy theo môi trường Node.js của bạn
+    "module": "commonjs", // Sử dụng CommonJS cho Node.js
+    "lib": ["es2018", "dom"], // Bao gồm các thư viện tiêu chuẩn cần thiết
+    "outDir": "./dist", // Thư mục đầu ra cho mã JavaScript đã biên dịch
+    "rootDir": "./src", // Thư mục chứa mã nguồn TypeScript
+    "strict": true, // Bật tất cả các kiểm tra nghiêm ngặt của TypeScript
+    "esModuleInterop": true, // Cho phép import CommonJS modules dưới dạng ES modules
+    "skipLibCheck": true, // Bỏ qua kiểm tra kiểu của các tệp định nghĩa thư viện
+    "forceConsistentCasingInFileNames": true, // Đảm bảo tên tệp nhất quán
+    "resolveJsonModule": true // Cho phép import các tệp .json
+  },
+  "include": ["src/**/*.ts", "src/server.ts"], // Chỉ định các tệp TypeScript để biên dịch
+  "exclude": ["node_modules"] // Loại trừ thư mục node_modules
+}
