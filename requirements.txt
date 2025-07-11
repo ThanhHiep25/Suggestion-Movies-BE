@@ -1,0 +1,7 @@
+
+# Các thư viện Python cần thiết cho ứng dụng backend (phần ML)
+
+pandas
+pymongo
+scikit-learn
+scipy
